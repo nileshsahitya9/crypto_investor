@@ -2,7 +2,7 @@ const request = require("request");
 
 function getUSDValues() {
 
-    var cryptoURL = 'https://min-api.cryptocompare.com/data/pricemulti?fsyms=ETH,DASH&tsyms=BTC,USD,EUR&api_key=5bb743c31dce5d99be7c28cce67367614450f8078ad043ae6d1f907b65a84b00';
+    var cryptoURL = 'https://min-api.cryptocompare.com/data/pricemulti?fsyms=ETH,BTC,XRP&tsyms=USD&api_key=5bb743c31dce5d99be7c28cce67367614450f8078ad043ae6d1f907b65a84b00';
 
     var options = {
         url: cryptoURL,
