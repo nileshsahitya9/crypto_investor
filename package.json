@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "minimist": "^1.2.6"
+    "csv-parser": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "minimist": "^1.2.6",
+    "request": "^2.88.2"
   }
 }

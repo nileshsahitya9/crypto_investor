@@ -1,3 +1,3 @@
 #Dependencies
 
-npm i minimist
+npm i minimist csv-parser fs request
